@@ -1,0 +1,4 @@
+<div appChangeBackground>This is {{ title }}</div>
+<label>Please enter your name</label>
+<input (input)="getName($event)" type="text" />
+<p [appChangeBackground]="'red'">{{ name }}</p>
